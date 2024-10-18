@@ -15,41 +15,101 @@
 </head>
 
 <body>
-    <!-- FIRST BIG BLOCK -->
-    <!-- BANNER SECTION -->
-    
-    <main>
-        <div class="container">
-            <!-- SIDEBARE SECTION -->
-            <div class="sidebare-nav side-txt">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="logo-menu" class="logo">
-                </div>
-                <ul>
-                    <li><a href="http://"><img class="nav-logo" src="./img/home.svg" alt="">Home</a></li>
-                    <li><a href="http://"><img class="nav-logo" src="./img/search.svg" alt="">Cerca</a></li>
-                    <li><a href="http://"><img class="nav-logo" src="./img/libreria.svg" alt="">Libreria</a></li>
-                </ul>
-            </div>
-            
-            <div class="right-block">
-                <div class="header-section">
-                    <div class="banner-top">
-                        <span class="upgrade-btn">EFFETTUA L'UPGRADE</span>
+    <!-- INTERO VIEWPORT -->
+    <section class="father-block">
+
+        <!-- CONTENITORE GRANDE -->
+        <div class="top-container">
+
+            <!-- SIDEBAR -->
+            <div class="sidebar">
+                <img class="logo" src="./img/logo.svg" alt="">
+
+                <section class="main-nav-list">
+                    <button class="side-nav-btn">
+                        <img src="./img/home.svg" alt="">
+                        <span class="home">Home</span>
+                    </button>
+                    <button class="side-nav-btn">
+                        <img src="./img/search.svg" alt="">
+                        <span class="search">Cerca</span>
+                    </button>
+                    <button class="side-nav-btn">
+                        <img src="./img/libreria.svg" alt="">
+                        <span class="library">La tua libreria</span>
+                    </button>
+                </section>
+
+                <!-- PLAYLIST SECTION -->
+                <section>
+                    <h4>PLAYLIST</h4>
+                    <span>&plus; Crea Playlist</span>
+                    <div class="playlist">
+                        <button>Nome Playlist</button>
+                        <button>Nome Playlist</button>
+                        <button>Nome Playlist</button>
+                        <button>Nome Playlist</button>
+                        <button>Nome Playlist</button>
+                        <button>Nome Playlist</button>
+                        <button>Nome Playlist</button>
+                        
                     </div>
+                </section>
+            </div>
+
+            <!-- SEZIONE DESTRA HEADER + SCROLL -->
+            <div class="right-block">
+                <div class="upgradebar">
+                    <a href="" class="upgrade-btn">EFFETTUA L'UPGRADE</a>
                 </div>
-                
-                <!-- MAIN SCROLL SECTION -->
                 <div class="scroll-section">
-                    
+                    <div class="category">
+                        <button>IN EVIDENZA</button>
+                        <button>PODCAST</button>
+                        <button>CLASSIFICHE</button>
+                        <button>GENERI E MOOD</button>
+                        <button>NUOVE USCITE</button>
+                        <button>SCOPRI</button>
+                    </div>
+
+                    <!-- SCROLL SECTION -->
+                    <div class="scroll-recent scroll">
+                        <h2>Recently played</h2>
+                        <div class="cards">
+                            <div class="col"></div>
+                            <div class="col"></div>
+                            <div class="col"></div>
+                            <div class="col"></div>
+                            <div class="col"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+
+                    <div class="scroll-created-for scroll">
+                        <h2>Creato per John Doe</h2>
+                        <span class="scroll">Più ascolti, più accurati saranno i suggerimenti</span>
+                        <div class="cards">
+                            <div class="col"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+
+                    <div class="scroll-popular scroll">
+                        <h2>Artisti più popolari</h2>
+                        <span class="scroll">Più ascolti, più accurati saranno i suggerimenti</span>
+                        <div class="cards">
+                            <div class="col"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
 
-    <!-- FOOTER BLOCK -->
-     <footer class="footer-block">
-     </footer>
+        <footer class="playbar">
+
+        </footer>
+    </section>
 </body>
 
 </html>
